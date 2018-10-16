@@ -1,5 +1,9 @@
 source "https://rubygems.org"
 
+gem 'fog-openstack',
+    github: 'elthariel/fog-openstack',
+    branch: 'wdg'
+
 gemspec
 
 # Omitted from CI Environment
